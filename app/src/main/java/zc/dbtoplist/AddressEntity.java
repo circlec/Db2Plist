@@ -4,7 +4,7 @@ import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Generated;
 import org.greenrobot.greendao.annotation.Property;
 
-@Entity(nameInDb = "address_dict")
+@Entity(nameInDb = "address_dict", createInDb=false)
 public class AddressEntity {
     private Long id;
     @Property(nameInDb = "parentId")
